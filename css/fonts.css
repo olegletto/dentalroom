@@ -1,0 +1,14 @@
+@font-face{
+    font-family: 'MyriadPro';
+    src: url("../Fonts/MyriadPro-SemiCn.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'MyriadProBold';
+    src: url("../Fonts/MyriadPro-SemiboldSemiCn.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
