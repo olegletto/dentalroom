@@ -118,7 +118,7 @@ a:hover, a:focus {
     text-align: left;
     vertical-align: top;
     color: black;
-    line-height: 0em;
+    line-height: 1.1;
 }
 
 .carousel-caption h5 {
@@ -169,6 +169,27 @@ a:hover, a:focus {
 
 .exellent span {
     margin-left: 10px;
+}
+
+.reviews {
+    background:  #19a4c6;
+    color: #ffffff;
+}
+
+.commentator {
+    height: 130px;
+    text-align: right;
+    background: url(../image/comment-icon.png) no-repeat;
+    background-size:30%;
+    background-position: center;
+}
+
+.commentator h5 {
+    padding-top: 30px;
+}
+
+.commentator p {
+    line-height: 0em;
 }
 
 .advantages {
