@@ -113,19 +113,92 @@ a:hover, a:focus {
     outline: 0;
 }
 
-.carousel-caption p {
-    font-size: 300%;
-    text-align: left;
-    vertical-align: top;
-    color: black;
-    line-height: 1.1;
+@media only screen and (max-width: 599px) {
+
+    .carousel-caption p {
+        font-size: 12px;
+        line-height: 1;
+    }
+    .carousel-caption h5 {
+        font-size: 15px;
+        line-height: 0.1;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer li {
+        text-align: left;
+    }
+    }
+
+@media only screen and (min-width: 600px) {
+    .carousel-caption p {
+        font-size: 30px;
+    }
+    .carousel-caption h5 {
+        font-size: 36px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer li {
+        text-align: left;
+    }
 }
 
-.carousel-caption h5 {
-    font-size: 3em;
+@media only screen and (min-width: 768px) {
+    .carousel-caption p {
+        font-size: 36px;
+    }
+    .carousel-caption h5 {
+        font-size: 42px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer li {
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .carousel-caption p {
+        font-size: 50px;
+    }
+    .carousel-caption h5 {
+        font-size: 60px;
+    }
+
+    .footer {
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .carousel-caption p {
+        font-size: 80px;
+    }
+    .carousel-caption h5 {
+        font-size: 100px;
+    }
+
+    .footer {
+        text-align: left;
+    }
+}
+
+.carousel-caption {
     text-align: left;
     color: black;
+    line-height: 1.0;
 }
+
 
 .btn-outline-primary {
     display: flex;
@@ -202,6 +275,7 @@ a:hover, a:focus {
     align-self: center;
     margin-left: 10px;
 }
+
 
 .photo-carousel .item img {
     display: block;
