@@ -128,9 +128,13 @@ a:hover, a:focus {
 
     .carousel-caption .btn {
         max-width: 50px !important;
+        max-height: 20px !important;
+        font-size: 8px !important;
+        padding: 2px !important;
+        margin-top: 2px;
     }
 
-    .carousel-btn {
+    /* .carousel-btn {
             background-color: #3aceec;
             border: none;
             color: white;
@@ -141,7 +145,7 @@ a:hover, a:focus {
             font-size: 8px;
             border-radius: 1px;
             margin: 0px;
-    }
+    } */
 
     .footer {
         text-align: center;
@@ -168,7 +172,15 @@ a:hover, a:focus {
         margin: 0px;
     }
 
-    .carousel-btn {
+    .carousel-caption .btn {
+        max-width: 200px !important;
+        max-height: 70px !important;
+        font-size: 15px !important;
+        padding: 6px !important;
+        margin-top: 18px;
+    }
+
+    /* .carousel-btn {
         background-color: #3aceec;
         border: none;
         color: white;
@@ -179,7 +191,7 @@ a:hover, a:focus {
         font-size: 15px;
         border-radius: 4px;
         margin-top: 18px;
-}
+} */
 
     .footer {
         text-align: center;
@@ -202,7 +214,15 @@ a:hover, a:focus {
         margin: 0px;
     }
 
-    .carousel-btn {
+    .carousel-caption .btn {
+        max-width: 250px !important;
+        max-height: 90px !important;
+        font-size: 24px !important;
+        padding: 10px !important;
+        margin-top: 24px;
+    }
+
+    /* .carousel-btn {
         background-color: #3aceec;
         border: none;
         color: white;
@@ -213,7 +233,7 @@ a:hover, a:focus {
         font-size: 24px;
         border-radius: 8px;
         margin-top: 24px;
-}
+} */
 
     .footer {
         text-align: center;
@@ -236,7 +256,15 @@ a:hover, a:focus {
         margin: 0px;
     }
 
-    .carousel-btn {
+    .carousel-caption .btn {
+        max-width: 300px !important;
+        max-height: 100px !important;
+        font-size: 28px !important;
+        padding: 14px !important;
+        margin-top: 28px;
+    }
+
+    /* .carousel-btn {
         background-color: #3aceec;
         border: none;
         color: white;
@@ -247,7 +275,7 @@ a:hover, a:focus {
         font-size: 28px;
         border-radius: 10px;
         margin-top: 28px;
-}
+} */
 
     .footer {
         text-align: left;
@@ -266,7 +294,15 @@ a:hover, a:focus {
         margin: 0px;
     }
 
-    .carousel-btn {
+    .carousel-caption .btn {
+        max-width: 300px !important;
+        max-height: 100px !important;
+        font-size: 32px !important;
+        padding: 16px !important;
+        margin-top: 32px;
+    }
+
+    /* .carousel-btn {
         background-color: #3aceec;
         border: none;
         color: white;
@@ -277,7 +313,7 @@ a:hover, a:focus {
         font-size: 32px;
         border-radius: 10px;
         margin-top: 32px;
-}
+} */
 
     .footer {
         text-align: left;
