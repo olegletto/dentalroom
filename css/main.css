@@ -118,10 +118,29 @@ a:hover, a:focus {
     .carousel-caption p {
         font-size: 12px;
         line-height: 1;
+        margin: 0px;
     }
     .carousel-caption h5 {
         font-size: 15px;
-        line-height: 0.1;
+        line-height: 1;
+        margin: 0px;
+    }
+
+    .carousel-caption .btn {
+        max-width: 50px !important;
+    }
+
+    .carousel-btn {
+            background-color: #3aceec;
+            border: none;
+            color: white;
+            padding: 1%;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 8px;
+            border-radius: 1px;
+            margin: 0px;
     }
 
     .footer {
@@ -131,15 +150,36 @@ a:hover, a:focus {
     .footer li {
         text-align: left;
     }
+
+    .spec .row h2, .spec .row p {
+        text-align: center;
+    }
     }
 
 @media only screen and (min-width: 600px) {
     .carousel-caption p {
         font-size: 30px;
+        line-height: 1;
+        margin: 0px;
     }
     .carousel-caption h5 {
         font-size: 36px;
+        line-height: 1;
+        margin: 0px;
     }
+
+    .carousel-btn {
+        background-color: #3aceec;
+        border: none;
+        color: white;
+        padding: 1%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        border-radius: 4px;
+        margin-top: 18px;
+}
 
     .footer {
         text-align: center;
@@ -153,10 +193,27 @@ a:hover, a:focus {
 @media only screen and (min-width: 768px) {
     .carousel-caption p {
         font-size: 36px;
+        line-height: 1;
+        margin: 0px;
     }
     .carousel-caption h5 {
         font-size: 42px;
+        line-height: 1;
+        margin: 0px;
     }
+
+    .carousel-btn {
+        background-color: #3aceec;
+        border: none;
+        color: white;
+        padding: 1%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        border-radius: 8px;
+        margin-top: 24px;
+}
 
     .footer {
         text-align: center;
@@ -169,11 +226,28 @@ a:hover, a:focus {
 
 @media only screen and (min-width: 992px) {
     .carousel-caption p {
-        font-size: 50px;
+        font-size: 45px;
+        line-height: 1;
+        margin: 0px;
     }
     .carousel-caption h5 {
-        font-size: 60px;
+        font-size: 55px;
+        line-height: 1;
+        margin: 0px;
     }
+
+    .carousel-btn {
+        background-color: #3aceec;
+        border: none;
+        color: white;
+        padding: 1%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 28px;
+        border-radius: 10px;
+        margin-top: 28px;
+}
 
     .footer {
         text-align: left;
@@ -182,11 +256,28 @@ a:hover, a:focus {
 
 @media only screen and (min-width: 1200px) {
     .carousel-caption p {
-        font-size: 80px;
+        font-size: 60px;
+        line-height: 1;
+        margin: 0px;
     }
     .carousel-caption h5 {
-        font-size: 100px;
+        font-size: 70px;
+        line-height: 1;
+        margin: 0px;
     }
+
+    .carousel-btn {
+        background-color: #3aceec;
+        border: none;
+        color: white;
+        padding: 1%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 32px;
+        border-radius: 10px;
+        margin-top: 32px;
+}
 
     .footer {
         text-align: left;
@@ -196,7 +287,6 @@ a:hover, a:focus {
 .carousel-caption {
     text-align: left;
     color: black;
-    line-height: 1.0;
 }
 
 
